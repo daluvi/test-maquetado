@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Test de maquetado</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="shortcut icon" type="image/x-icon" href="images/layout/favicon.ico">
+  <link rel="icon" type="image/icon" href="images/layout/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/layout/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/layout/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/layout/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/layout/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/layout/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/layout/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/layout/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/layout/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="images/layout/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="images/layout/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="images/layout/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/layout/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="images/layout/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="La preuve"/>
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+  <title>La Preuve</title>
+  <link rel="stylesheet" href="webfonts/webfonts.min.css">
+  <!-- <link rel="stylesheet" href="font/style.css"> -->
+  <!--[if lt IE 8]><!-->
+    <!-- <link rel="stylesheet" href="font/ie7/ie7.css"> -->
+  <!--<![endif]-->
+  <link rel="stylesheet" href="css/default/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="css/default/layout.min.css">
+  <link rel="stylesheet" href="css/default/media.min.css">
+  <!-- <script type="text/javascript" src="scripts/default/basic/pixp.js"></script> -->
+  <!-- <script type="text/javascript" src="scripts/default/basic/cssrefresh.js"></script> -->
+  <script>
+    var CConfig = {
+      root: ''
+    };
+  </script>
+  <script type="text/javascript" src="scripts/default/basic/ie.js"></script>
+  <script type="text/javascript" src="scripts/default/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="scripts/default/basic/jquery.jqtransform.js"></script>
+  <script type="text/javascript" src="scripts/default/basic/jquery.touchSwipe.min.js"></script>
+  <script type="text/javascript" src="scripts/default/basic/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="scripts/default/basic/media-check.min.js"></script>
+  <script type="text/javascript" src="scripts/default/funciones.js"></script>
 </head>
 <body>
-
+  <header>
+    <h1>
+      <a href="#">la Preuve</a>
+    </h1>
+    <nav>
+      <a href="#" class="selected">sale</a>
+      <a href="#">e-shop</a>
+      <a href="#">lookbook</a>
+      <a href="#">campa&ntilde;a</a>
+      <a href="#">locales</a>
+    </nav>
+    <div class="subNav">
+      <div href="#" class="search">
+        <div class="contentSearch">
+          <form action="index.html" method="GET" class="jqtransform">
+            <input type="text" name="search" value="" id="search" placeholder="search">
+            <input type="submit" value=">">
+          </form>
+        </div>
+      </div>
+      <div href="#" class="account">
+        <ul>
+          <li><a href="#">salir</a></li>
+          <li><a href="#">salir</a></li>
+          <li><a href="#">salir</a></li>
+        </ul>
+      </div>
+      <div href="#" class="shopCart">
+        <ul>
+          <li>
+            <p>zapatilla 1</p>
+          </li>
+          <li>
+            <p>zapatilla 1</p>
+          </li>
+          <li>
+            <p>zapatilla 1</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <aside>
+      <span class="filtered">Zapatillas</span>
+      <div class="contentFilter">
+        <h6>Filtrar</h6>
+        <div class="filter">
+          <p>Categoria</p>
+          <ul>
+            <li><a href="#" data-type="zapatilla">zapatilas</a></li>
+            <li><a href="#" data-type="zapato">zapatos</a></li>
+            <li><a href="#" data-type="bota">botas</a></li>
+            <li><a href="#" data-type="sandalia">sandalias</a></li>
+            <li><a href="#" data-type="pantufla">pantuflas</a></li>
+          </ul>
+          <p>talle</p>
+          <ul>
+            <li><a href="#" data-talle="36">36</a></li>
+            <li><a href="#" data-talle="38">38</a></li>
+            <li><a href="#" data-talle="40">40</a></li>
+            <li><a href="#" data-talle="42">42</a></li>
+            <li><a href="#" data-talle="44">44</a></li>
+          </ul>
+          <p>color</p>
+          <ul>
+            <li><a href="#" data-color="amarillo">amarillo</a></li>
+            <li><a href="#" data-color="negro">negro</a></li>
+            <li><a href="#" data-color="verde">verde</a></li>
+            <li><a href="#" data-color="azul">azul</a></li>
+            <li><a href="#" data-color="blanco">blanco</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <article>
+      <ul class="product">
+        
+      </ul>
+    </article>
+  </main>
+  <footer class="footernav">
+    <a href="#">ayuda</a>
+    <a href="#">contacto</a>
+    <a href="#">t&eacute;rminos y condiciones</a>
+    <a href="#">pol&iacute;ticas de privacidad</a>
+  </footer>
 </body>
 </html>
