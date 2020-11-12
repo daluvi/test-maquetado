@@ -1,0 +1,146 @@
+[
+    {
+        "type": "zapatilla",
+        "color": "amarillo",
+        "talle": 36,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_1.jpg",
+            "alt": "zapatilla1"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 5000
+    },
+    {
+        "type": "zapato",
+        "color": "negro",
+        "talle": 44,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_2.jpg",
+            "alt": "zapatilla2"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 9800
+    },
+    {
+        "type": "sandalia",
+        "color": "verde",
+        "talle": 44,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_3.jpg",
+            "alt": "zapatilla3"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 6500
+    },
+    {
+        "type": "sandalia",
+        "color": "verde",
+        "talle": 38,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_3.jpg",
+            "alt": "zapatilla3"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 6500
+    },
+    {
+        "type": "zapatilla",
+        "color": "amarillo",
+        "talle": 36,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_1.jpg",
+            "alt": "zapatilla1"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 5000
+    },
+    {
+        "type": "zapato",
+        "color": "negro",
+        "talle": 40,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_2.jpg",
+            "alt": "zapatilla2"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 9800
+    },
+    {
+        "type": "zapatilla",
+        "color": "amarillo",
+        "talle": 36,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_1.jpg",
+            "alt": "zapatilla1"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 5000
+    },
+    {
+        "type": "zapato",
+        "color": "negro",
+        "talle": 40,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_2.jpg",
+            "alt": "zapatilla2"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 9800
+    },
+    {
+        "type": "sandalia",
+        "color": "verde",
+        "talle": 38,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_3.jpg",
+            "alt": "zapatilla3"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 6500
+    },
+    {
+        "type": "zapato",
+        "color": "negro",
+        "talle": 40,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_2.jpg",
+            "alt": "zapatilla2"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 9800
+    },
+    {
+        "type": "sandalia",
+        "color": "verde",
+        "talle": 38,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_3.jpg",
+            "alt": "zapatilla3"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 6500
+    },
+    {
+        "type": "zapatilla",
+        "color": "amarillo",
+        "talle": 36,
+        "link": "#",
+        "img": {
+            "src": "assets/productos/zapatilla_1.jpg",
+            "alt": "zapatilla1"
+        },
+        "title": "Zapatillas 1-XFK",
+        "price": 5000
+    }
+]
